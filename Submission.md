@@ -47,12 +47,14 @@ Ensures coupons work correctly regardless of letter casing, preventing failures 
 ---
 
 ## CI Pipeline (if implemented)
-- Did CI pass successfully? (Yes / No)
-- GitHub Actions Run URL:
+- Did CI pass successfully? Yes
+- GitHub Actions Run URL: [GitHub Actions URL](https://github.com/Chanakyasinde/jest-workshop/actions)
+
 
 ---
 
 ## Reflection (1–2 lines)
-What is **one thing** you understood better about testing or CI after this workshop?
+
+I understood how automated tests help catch edge cases early and how a CI pipeline ensures that code changes do not break existing functionality before merging.
 
 
