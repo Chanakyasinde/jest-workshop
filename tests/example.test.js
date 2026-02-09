@@ -9,3 +9,7 @@ test("Check for invalid sub total", () => {
     "Invalid subtotal",
   );
 });
+
+test("Check for no coupon case", () => {
+  expect(calculateFinalAmount(500)).toBe(500);
+});
