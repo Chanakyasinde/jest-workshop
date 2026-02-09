@@ -23,3 +23,6 @@ test("Check for case-insensitive coupon", () => {
   expect(calculateFinalAmount(200, "SaVe10")).toBe(180);
 });
 
+test("Check for FLAT50 boundary case", () => {
+  expect(calculateFinalAmount(50, "FLAT50")).toBe(0);
+});
