@@ -13,3 +13,7 @@ test("Check for invalid sub total", () => {
 test("Check for no coupon case", () => {
   expect(calculateFinalAmount(500)).toBe(500);
 });
+
+test("Check for SAVE10 coupon", () => {
+  expect(calculateFinalAmount(200, "SAVE10")).toBe(180);
+});
