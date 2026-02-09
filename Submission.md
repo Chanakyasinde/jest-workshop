@@ -1,9 +1,9 @@
 # Jest Workshop Submission
 
 ## Student Details
-- Name:
-- Roll Number:
-- GitHub Username:
+- Name: Chanakya Sinde
+- Roll Number: 2024-B-12112005
+- GitHub Username: Chanakyasinde
 
 ---
 
