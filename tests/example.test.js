@@ -17,3 +17,9 @@ test("Check for no coupon case", () => {
 test("Check for SAVE10 coupon", () => {
   expect(calculateFinalAmount(200, "SAVE10")).toBe(180);
 });
+
+test("Check for case-insensitive coupon", () => {
+  expect(calculateFinalAmount(200, "save10")).toBe(180);
+  expect(calculateFinalAmount(200, "SaVe10")).toBe(180);
+});
+
